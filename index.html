@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Game</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        #targetColor {
+            font-size: 24px;
+        }
+        .color-option {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Picker Game</h1>
+    <p>Target color: <span id="targetColor">#FFFFFF</span></p>
+    <div id="colorOptions"></div>
+    <p id="message"></p>
+    <button id="newColorButton">New Color</button>
+
+    <script src="color.js"></script>
+</body>
+</html>
